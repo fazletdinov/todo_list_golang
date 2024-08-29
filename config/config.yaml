@@ -1,0 +1,21 @@
+# Окружение - local, dev или prod
+env: "local"
+
+# конфигурация нашего taks-сервера
+tasks_server: 
+  tasks_port: "8080"
+  
+# конфигурация PostgresDB
+postgres_posts_db: 
+  user: ""
+  password: ""
+  host: "postgres_db"
+  port: 5432
+  name: "postgres"
+  ssl_mode: "disable"
+
+# конфигурация RedisDB
+redis_posts_db:
+  host: "redis_db"
+  port: 6379
+  exp: 60
